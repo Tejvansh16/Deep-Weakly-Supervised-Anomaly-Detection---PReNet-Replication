@@ -1,4 +1,4 @@
-# Deep-Weakly-Supervised-Anomaly-Detection---PReNet-Replication
+# Deep-Weakly-Supervised-Anomaly-Detection-PReNet-Replication
 
 Replication study of **PReNet** ([Pang, Shen, Jin & van den Hengel, KDD '23](https://dl.acm.org/doi/10.1145/3580305.3599295)), which reformulates anomaly detection as a pairwise relation prediction problem rather than fitting individual anomaly examples directly.
 
