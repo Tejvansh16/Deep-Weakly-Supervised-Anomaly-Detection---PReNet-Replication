@@ -9,7 +9,6 @@ Individual project for CIS-5700 (Machine Learning), Winter 2026 — Tejvansh Sin
 - `PReNet_Replication.ipynb` — end-to-end notebook: environment setup, compatibility patches, main experiment, ablation, and training-curve visualization
 - `ablation.py` — standalone script for the no-pairwise-supervision baseline
 - `training_curves.py` — standalone script for the training loss plot
-- `report/` — full project report and presentation slides
 
 ## Summary
 
