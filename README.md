@@ -1,4 +1,4 @@
-# Deep-Weakly-Supervised-Anomaly-Detection-PReNet-Replication
+# Deep Weakly-Supervised Anomaly Detection — PReNet Replication
 
 Replication study of **PReNet** ([Pang, Shen, Jin & van den Hengel, KDD '23](https://dl.acm.org/doi/10.1145/3580305.3599295)), which reformulates anomaly detection as a pairwise relation prediction problem rather than fitting individual anomaly examples directly.
 
@@ -34,6 +34,8 @@ The official [PReNet codebase](https://github.com/mala-lab/PReNet) targets Tenso
 - The replication **matched (and slightly exceeded)** the paper's reported AUC-ROC using **half the labeled anomalies**, consistent with PReNet's sample-efficiency claims.
 - The ablation collapses to near-random performance (AUC-ROC ≈ 0.51), confirming that **pairwise relation learning — not just the encoder architecture — is the key driver** of PReNet's performance.
 
+![Training loss curve](report/training_curve.png)
+
 ## Setup / how to run
 
 ```bash
@@ -45,4 +47,4 @@ Open `PReNet_Replication.ipynb` in Colab or Jupyter and run top to bottom. Updat
 
 ## Reference
 
-Pang, G., Shen, C., Jin, H., & van den Hengel, A. (2023). *Deep weakly-supervised anomaly detection.* KDD '23. ACM.
+Pang, G., Shen, C., Jin, H., & van den Hengel, A. (2023). *Deep weakly-supervised anomaly detection.* KDD '23. ACM. [arXiv:1910.13601](https://arxiv.org/pdf/1910.13601)
