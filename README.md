@@ -34,7 +34,7 @@ The official [PReNet codebase](https://github.com/mala-lab/PReNet) targets Tenso
 - The replication **matched (and slightly exceeded)** the paper's reported AUC-ROC using **half the labeled anomalies**, consistent with PReNet's sample-efficiency claims.
 - The ablation collapses to near-random performance (AUC-ROC ≈ 0.51), confirming that **pairwise relation learning — not just the encoder architecture — is the key driver** of PReNet's performance.
 
-![Training loss curve](report/training_curve.png)
+![Training loss curve](training_curve.png)
 
 ## Setup / how to run
 
