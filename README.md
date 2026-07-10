@@ -1,6 +1,6 @@
 # Deep Weakly-Supervised Anomaly Detection — PReNet Replication
 
-Replication study of **PReNet** ([Pang, Shen, Jin & van den Hengel, KDD '23]([https://dl.acm.org/doi/10.1145/3580305.3599295](https://arxiv.org/pdf/1910.13601))), which reformulates anomaly detection as a pairwise relation prediction problem rather than fitting individual anomaly examples directly.
+Replication study of **PReNet** ([Pang, Shen, Jin & van den Hengel, KDD '23](https://dl.acm.org/doi/10.1145/3580305.3599302)), which reformulates anomaly detection as a pairwise relation prediction problem rather than fitting individual anomaly examples directly.
 
 Individual project for CIS-5700 (Machine Learning), Winter 2026 — Tejvansh Singh Randhawa.
 
@@ -9,6 +9,7 @@ Individual project for CIS-5700 (Machine Learning), Winter 2026 — Tejvansh Sin
 - `PReNet_Replication.ipynb` — end-to-end notebook: environment setup, compatibility patches, main experiment, ablation, and training-curve visualization
 - `ablation.py` — standalone script for the no-pairwise-supervision baseline
 - `training_curves.py` — standalone script for the training loss plot
+- `report/` — full project report and presentation slides
 
 ## Summary
 
